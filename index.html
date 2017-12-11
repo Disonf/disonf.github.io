@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css"-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -18,43 +19,50 @@
 
 
     <div class="wrapper">
-        <header class="header">
-            <div class="container header__container">
+        <div class="header">
+            <div class="container">
+                 <div class="header-logo">
+                     
 
-                <div class="header__left">
-                    <!--a href="/" class="logo">
-                      <img src="img/logo.png" alt="logo" class="logo__img"-->
-                    <h1 class="logo__text">Афродита</h1>
-
-
-                    <a class="header__contacts" href="tel:+78000039210">8(800)00-392-10</a>
-                    <div class="header__contacts-time"></div>
-                    <a class="header__contacts-time-link" href="#">Режим работы</a>
+                         <h1 class="header-logo__text">Afrodita</h1>
+                    
+                 </div>
+                 <div class="header-info">
+                    <div class="header-info__phone" href="tel:+78000039210">8 (800) 00-392-10</div>
+                    <div class="header-info__schedule" href="#">График работы</div>
                 </div>
             </div>
-    </div>
+       </div>
+
+
+
     <nav>
         <ul class="top-menu">
             <li>
-                <a href="/home/">Главная</a>
+                <a div class="top-menu__home" href="/home/">Главная</a></div>
             </li>
             <li>
-                <a href="/feedback/">Отзывы</a>
+                <a div class="top-menu__feedback" href="/feedback/">Отзывы</a></div>
             </li>
             <li>
-                <a href="/services/">Услуги</a>
+                <a div class="top-menu__services" href="/services/">Услуги</a>
             </li>
         </ul>
 
     </nav>
 
-    <main class="content">
-        <section class="box">
-            <h2 class="box__header">Особенности</h2>
+    <div class="main-body">
+        <div class="main-body__logo">
+            <img class="main-body__img" src="img/main.png" alt="afrodita">    
+        </div>
+
+    <main class="box">
+        <section class="box-content">
+            <h1 class="box__header">Особенности</h1>
             <div class="box__body">
                 <div class="box__image-unique" src="/img/1.jpg">
                 </div>
-                <label class="box__unique">Уникальность</label>
+                <div class="box__unique">Уникальность</div>
                 <div class="box__desc">Мы делаем все, для вашего комфорта</div>
                 <ul class="box__list">
                     <li class="box__item">
