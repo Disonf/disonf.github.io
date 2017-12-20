@@ -72,6 +72,10 @@ body, ul{
   overflow: hidden;
 }
 
+.main {
+	width: 100%;
+	margin: 0 auto;
+}
 
 .header {
 	height: 76px;
@@ -389,12 +393,15 @@ body, ul{
 	display: block;
 	line-height: 2;
 	margin-top: 4px;
+	text-align: left;
 }
 .news__text--caption {
 	font-size: 16px;
 	font-family: 'robotobold';
 	letter-spacing: 1px;
 	display: block;
+	text-align: left;
+	
 }
 .news__texts--content {
 	font-size: 18px;
@@ -464,9 +471,9 @@ body, ul{
 	font-size: 14px;
 	font-weight: 300;
 	color: #656464;
-	margin-left: 350px;
+	margin-left: 470px;
 	margin-top: 28px;
-	margin-bottom: 68px;
+	margin-bottom: 130px;
 }
 
 .pagination__block, .pagination__block--1, .pagination__item {
@@ -513,7 +520,9 @@ body, ul{
 
 .footer {
 	background: #131415;
-	min-height: 78px;
+	
+	margin-top: -78px;
+	height: 78px;
 	width: 100%;
 	min-width: 1100px;
 	overflow: hidden;
@@ -571,6 +580,7 @@ body, ul{
 	color: #ffffff;
 }
 .socials-desc {
+	margin-right: -25px;
 	font-weight: 700;
 	color: #ffffff;
 }
@@ -585,7 +595,7 @@ body, ul{
 	margin-right: 34px;
 }
 
-.socials-buttons buttons:hover {
+.socials-buttons:hover {
 	background-color: #f89513; 
 }
 .socials-buttons__vk {
