@@ -48,6 +48,9 @@
 }
 
 
+* {
+	box-sizing: border-box;
+}
 
 .clearfix:after {
   content: "";
@@ -59,6 +62,7 @@ body, ul{
   margin: 0;
   padding: 0; 
   font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
+
 }
 
 .container{
@@ -71,6 +75,8 @@ body, ul{
 	min-width: 1100px;
   overflow: hidden;
 }
+
+
 
 .main {
 	width: 100%;
@@ -127,6 +133,7 @@ body, ul{
 	margin-top: 18px;
 	text-transform: uppercase;
 	margin-left: 8px;
+	width: 33.3%;
 }
 .nav__link--2 {
 	padding-left: 34px;
@@ -302,6 +309,11 @@ border-radius: 50%;
 display: inline-block;
 background-size: cover;
 overflow: hidden;
+}
+
+.review-avatar__img{
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .review-comment{
@@ -554,9 +566,10 @@ overflow: hidden;
 	font-size: 14px;
 	font-weight: 300;
 	color: #656464;
-	margin-left: 470px;
+	text-align: center;
 	margin-top: 28px;
-	margin-bottom: 130px;
+	margin-bottom: 77px;
+
 }
 
 .pagination__block, .pagination__block--1, .pagination__item {
@@ -607,6 +620,8 @@ overflow: hidden;
 	width: 100%;
 	min-width: 1100px;
 	overflow: hidden;
+
+	
 }
 
 .socials {
@@ -699,3 +714,163 @@ overflow: hidden;
 .socials-buttons__mail {
 	background: url('../img/icons/mail.png') center no-repeat #d0d0d0;
 	border-radius: 50%;
+}
+
+
+
+
+.content{
+	width: 100%;
+	background: #131415;
+	text-align: left;
+	color: white;
+	min-height: 170px;
+	background-image: url(../img/content-img.png);
+	margin-bottom: 60px;
+	display: block;
+}
+
+
+.contentbox{
+	padding: 22px 218px 30px 218px;
+	font-size: 18px;
+	font-family: 'open_sanslight';
+	line-height: 1.7;
+}
+.contentbox__strong {
+	color: #e98c13;
+	font-family: 'open_sansbold';
+}
+.form__comments {
+	max-width: 700px;
+	border-radius: 3px;
+	background: #f5f5f5;
+	margin: 0;
+	margin-bottom: 60px;
+	position: relative;
+	font-family: open_sanslight;
+	padding: 42px 70px 50px 70px;
+}
+
+.form__title {
+	font-size: 49px;
+	font-family: 'open_sansbold';
+}
+.form__input {
+	display: inline-block;
+	margin-top: 16px;
+}
+.form__input:first-child {
+	margin-right: 16px;
+}
+.form__inputs {
+	margin-bottom: 18px;
+}
+
+
+.form__input--signature {
+	display: block;
+	color: black;
+	font-weight: 600;
+	color: #3f3d3d;
+	margin-bottom: 6px;
+}
+
+.form__input--field {
+	width: 270px;
+	height: 45px;
+	border: none;
+	border-radius: 3px;
+	outline: 0;
+	padding-left: 12px;
+	padding-right: 12px;
+
+}
+.form__input--field:focus, .form__input--message:focus {
+	border: 1px solid #f89513;
+	
+}
+
+.form__input--message {
+	width: 560px;
+	height: 90px;
+	border-radius: 3px;
+	border: none;
+	box-sizing: border-box;
+	outline: none;
+	padding-left: 10px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	padding-right: 10px;
+	letter-spacing: .3px;
+	resize: none;
+	color: #221f1f;
+}
+
+
+.form__radiobutton {
+	display: block;
+}
+.radiobutton__radio {
+	display: inline-block;
+}
+.radiobutton__button {
+	display: inline-block; 
+	float: right;
+	margin-top: 18px;
+}
+.radiobutton__radio--label {
+	margin-bottom: 9px;
+}
+.radio {
+	width: 20px;
+	height: 20px;
+	color: red;
+	background: red;
+	vertical-align: middle;
+	cursor: pointer;
+	position: relative;
+	cursor: pointer;
+	opacity: 0;
+	position: absolute;
+}
+.label--radio {
+	cursor: pointer;
+	display: inline-block;
+}
+.label--radio:last-child {
+	margin-left: 18px;
+}
+.radio__text {
+	display: inline-block;
+	vertical-align: 4px;
+}
+.radio:checked ~ .radio__styles {
+	background: url(../img/icons/checked.png) no-repeat;
+}
+.radio:checked ~ .radio__text {
+	color: #f89513;
+}
+.radio__styles {
+	background: url(../img/icons/no__checked.png)no-repeat;
+	display: inline-block;
+	z-index: 999;
+	width: 20px;
+	height: 20px;
+	padding-left: 4px;
+}
+.button {
+	width: 125px;
+	height: 45px;
+	color: white;
+	background: #1c1f1d;
+	border: none;
+	border-radius: 3px;
+	font-size: 12px;
+	font-family: 'open_sansbold';
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+.button:hover {
+	background: #f89513;
+}

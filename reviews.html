@@ -48,7 +48,7 @@
 <div class="main-content">Отзывы</div>
 <ul class="reviews">
     <li class="review">
-        <div class="review-avatar" style="bck-image: url(img/rev1.jpg);">
+        <div class="review-avatar" style="background-image: url(img/rev1.jpg);">
         <img class="review-avatar__img" src="img/rev1.jpg" alt="img">
         </div>
         <div class="review-comment">
@@ -124,12 +124,46 @@
         </ul>
       </div>
 
-<div class="content">
-  <img class="content-bck" src="img/content-img.png">
-  <div class="content-bck--box">
-    Помимо перечисленных услуг, мы предоставляем консультации<br> профессиональных диетологов, тренеров, психологов. Также есть кабинет<br> массажа, зал спа рядом с бассейном и возможность арендовать центр для<br> проведения массовых мероприятий. Ждем ваших заявок!
-  </div>
-</div>
+
+      <section class="content">
+        <div class="container">
+          <div class="contentbox">
+            Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых мероприятий. <strong class="contentbox__strong">Ждем ваших заявок!</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="form">
+        <div class="container clearfix">
+          <form class="form__comments" action="">
+            <h2 class="form__title">Оставить отзыв</h2>
+            <div class="form__inputs">
+              <div class="form__input">
+                <label class="form__input--signature" for="name">Ваше имя</label>
+                <input class="form__input--field" type="text" id="name" placeholder="Денис">
+              </div>
+              <div class="form__input">
+                <label class="form__input--signature" for="vk">Ссылка на профиль VK</label>
+                <input class="form__input--field" type="text" id="vk" placeholder="vk.com/example">
+              </div>
+            </div>
+					<div class="form__textarea">
+						<label class="form__input--signature" for="message">Текст отзыва</label>
+						<textarea class="form__input--message" placeholder="Мне понравилось" name="message" id="message"></textarea>
+          </div>
+          <div class="form__radiobutton">
+						<div class="radiobutton__radio">
+							<p class="radiobutton__radio--label">Отображать фото в отзыве?</p>
+							<label class="label--radio" for="radio1" name="radio"><input checked="checked" name="radio" id="radio1" class="radio" type="radio"><span class="radio__styles"></span><span class="radio__text">Да</span></label>
+							<label class="label--radio" for="radio2" name="radio"><input name="radio" id="radio2" class="radio" type="radio"><span class="radio__styles"></span><span class="radio__text">Нет</span></label>
+						</div>
+						<div class="radiobutton__button">
+							<button class="button">Отправить</button>
+						</div>
+					</div>
+          </form>
+        </div>
+      </section>
 
 </main>
 </div>
