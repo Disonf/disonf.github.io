@@ -1,0 +1,21 @@
+.second {
+    background-image: url("../image/second-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.second__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.section__title-second{
+    color: #2f3234;
+}
