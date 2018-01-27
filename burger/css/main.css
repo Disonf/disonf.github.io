@@ -173,7 +173,8 @@ ul {
   vertical-align: middle;
   -webkit-transition: .5s;
   -o-transition: .5s;
-  transition: .5s; }
+  transition: .5s;
+  color: #fff; }
   .nav__link:hover {
     text-decoration: underline; }
 
@@ -257,11 +258,91 @@ ul {
   flex-direction: row;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 20px; }
+
+.second__item {
+  width: 285px;
+  text-align: center; }
+
+.second__img {
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+.second__item-title {
+  font-family: 'lifehack';
+  font-size: 24px; }
 
 .section__title-second {
   color: #2f3234; }
+
+.third {
+  background-image: url("../image/third-bg.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: relative; }
+
+.third__content-title {
+  color: #fff;
+  font-family: "gagalin";
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 1.42;
+  margin: 0;
+  padding-top: 60px; }
+
+.third__content-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.third__content-desc {
+  width: 500px;
+  float: right;
+  /*display: flex;
+    /*flex-direction: row;*/
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: justify; }
+
+.third__content-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end; }
+
+.third__img {
+  margin-left: 50px; }
+
+.third__content-price {
+  font-family: "gagalin";
+  font-size: 72px;
+  font-weight: 300;
+  color: #e35028; }
