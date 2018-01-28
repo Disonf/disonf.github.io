@@ -1,0 +1,43 @@
+.fourth {
+    background-image: url("../image/fourth-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.fourth__right-title {
+    color: #f9b43b;
+    font-family: "gagalin";
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 1.42;
+    margin: 0;
+    padding-top: 60px;
+    float: right;
+    margin-left: 200px;
+}
+
+.fourth__content-right {
+    width: 50%;
+    height: 100%;
+    min-height: 650px;
+    display: flex;
+    background-color:#343739;
+    opacity: .9;
+    float: right;
+}
+
+
+.fourth__right-items {
+    display: block;
+    margin-top:190px;
+    margin-left: 200px;
+    line-height: 3.24;
+}
+
+.fourth__right-employee {
+    color:#fff;
+    display: flex;
+
+}
+

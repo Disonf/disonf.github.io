@@ -11,41 +11,53 @@
     font-family: "gagalin";
     font-size: 72px;
     font-weight: 300;
-    line-height: 1.42;
+    line-height: .8;
     margin: 0;
-    padding-top: 60px; }
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+ }
 
-.third__content-title {
+.third__content {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
+    float: right;
+    width: 550px;
+    margin-right: 100px;
+}
+
+.third__content-price {
+    color: #e35028;
+    font-size: 72px;
+    font-family: "gagalin";
+    margin-top: 30px;
+
 }
 
 .third__content-desc {
-    width: 500px;
-    float: right;
-    /*display: flex;
-    /*flex-direction: row;*/
-    justify-content: flex-end;
-    align-items: center;
-    text-align: justify;
+    line-height: 1.62;
+    color: #fff;
 }
 
-.third__content-price {
+.third__desc {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
-.third__img {
-
-    margin-left: 50px;
+.third__desc-img {
+    float: left;
+    margin-right: 500px;
 }
 
-.third__content-price {
-    font-family: "gagalin";
-    font-size: 72px;
-    font-weight: 300;
-    color: #e35028;
+.third__desc-nutr {
+    margin-left: 30px;
+
+}
+
+.third__desc-kkal {
+    margin-left: 30px;
 }
